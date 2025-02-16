@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&display=swap');
+
+body {
+    background-image: url('cyber-outrun-vaporwave-art.jpg'); /* Use your image */
+    background-size: cover;
+    background-position: center;
+    color: #00ffff;
+    font-family: 'Orbitron', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    background: rgba(0, 0, 0, 0.8);
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    border: 2px solid #00ffff;
+    box-shadow: 0 0 15px #00ffff;
+}
+
+h1 {
+    font-size: 24px;
+    color: #ff007f;
+    text-shadow: 0 0 10px #ff007f;
+}
+
+label {
+    display: block;
+    margin-top: 10px;
+}
+
+input {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    background: black;
+    border: 1px solid #00ffff;
+    color: #00ffff;
+    font-size: 16px;
+}
+
+button {
+    width: 100%;
+    margin-top: 15px;
+    padding: 10px;
+    background: #ff007f;
+    border: none;
+    color: black;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+    text-shadow: 0 0 10px black;
+}
+
+button:hover {
+    background: #00ffff;
+    color: black;
+}
+
+#result {
+    margin-top: 20px;
+    font-size: 20px;
+    text-shadow: 0 0 10px #00ffff;
+}
